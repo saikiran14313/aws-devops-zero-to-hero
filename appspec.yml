@@ -3,7 +3,7 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: scripts/stop_container.sh
+    - location: scripts/stop_container.sh 
       timeout: 300
       runas: root
   AfterInstall:
